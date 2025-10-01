@@ -37,9 +37,9 @@ public class TankCleaningContest {
 
         // Compare the times and Print the winner
         if (name1Time > name2Time) {
-            System.out.println("The Winner is " + name1);
-        } else if (name2Time > name1Time) {
             System.out.println("The Winner is " + name2);
+        } else if (name2Time > name1Time) {
+            System.out.println("The Winner is " + name1);
         } else {
             System.out.println("It's a Tie! " + name1 + " and " + name2 + " are both winners!");
         }
